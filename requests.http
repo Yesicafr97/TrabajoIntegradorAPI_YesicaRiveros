@@ -1,0 +1,14 @@
+#Ver todas las tareas
+GET http://localhost:3000/api/tareas
+
+
+
+#Crear una nueva tarea
+POST http://localhost:3000/api/tareas
+Content-Type: application/json
+
+{
+  "titulo": "Mi primera tarea",
+  "descripcion": "Esta es la primera tarea que creo usando la API."
+}
+
